@@ -1,0 +1,1 @@
+export { StockWidgetApp, StockWidget, Icon } from './StockWidget';

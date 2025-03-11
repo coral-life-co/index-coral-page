@@ -1,18 +1,21 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
-};
+  title: 'Index Livingmall Saraburi - Air Quality Dashboard',
+  description: 'Powered by Coral Life',
+  generator: 'Coral Life',
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
+ 
       <body>{children}</body>
     </html>
-  );
+  )
 }
